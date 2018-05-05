@@ -1,0 +1,73 @@
+@media screen and (max-width: 400px) {
+    .project {
+        width: 100%;
+    }
+    .header_logo {
+        width: 5em;
+    }
+    .container {
+        font-size: 0.4em;
+        overflow-x: hidden;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    .container {    
+        font-size: 75%;
+    }
+    .one {
+        width: 48%;
+        order:1;
+        margin-right: 2%;
+    }
+    .two {
+        width: 48%;
+        order: 2;
+    }
+    .three {
+        width: 48%;
+        margin-right: 2%;
+        order: 3;
+    }
+}
+/*For viewport width more than 700 and less than equal to 1000 px*/
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    .container {    
+        font-size: 75%;
+    }
+    .one {
+        width: 31.5%;
+        order:1;
+        margin-right: 2.4%;
+    }
+    .two {
+        width: 31.5%;
+        order: 2;
+        margin-right: 2.4%;
+    }
+    .three {
+        width: 31.5%;
+        order: 3;
+    }
+}
+/*for Viewport having width more than 1000px, automatically add margin*/
+@media screen and (min-width: 1001px) {
+    .container {
+        width: 1001px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .one {
+        width: 31.5%;
+        order:1;
+        margin-right: 2.4%;
+    }
+    .two {
+        width: 31.5%;
+        order: 2;
+        margin-right: 2.4%;
+    }
+    .three {
+        width: 31.5%;
+        order: 3;
+    }
+}
